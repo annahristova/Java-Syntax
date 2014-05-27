@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+
+public class PointsInsideAFigure {
+
+	public static void main(String args[]) 
+	   {
+
+	Scanner input = new Scanner(System.in);
+	double firstNum = input.nextDouble();
+	double secondNum = input.nextDouble();
+	 if ((firstNum>=6) & (firstNum<=13.5f) & (secondNum>=12.5f) & (secondNum<=22.5f)) {
+		 System.out.println("Inside");
+	    } else {
+	    	System.out.println("Outsidee");
+	    } 
+
+
+
+}
+}
+
