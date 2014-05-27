@@ -1,0 +1,19 @@
+
+import java.util.Scanner;
+public class theSmallestOF3Numbers {
+	 public static void main(String args[]) 
+	   {
+
+	Scanner input = new Scanner(System.in);
+	int firstNum = input.nextInt();
+	int secondNum = input.nextInt();
+	int thirdNum = input.nextInt();
+	  int bigger = Math.min(firstNum, secondNum);
+	  int bigest = Math.min(bigger, thirdNum);
+	  System.out.println(bigest);
+	    
+
+
+
+}
+}
